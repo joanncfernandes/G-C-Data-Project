@@ -1,0 +1,13 @@
+Introduction:
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
+Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+wearing a smartphone (Samsung Galaxy S II) on the waist. 
+
+Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
+
+We have 180 records and 563 variables. 
+
+The first variables indentify the subject who carried out the experiment and the second variable indicates the activity the subject is undertaking. 
+
+The remaining 561 columns are the average values of the 561 variables captured by the phone with time and frequency domains
