@@ -6,8 +6,23 @@ wearing a smartphone (Samsung Galaxy S II) on the waist.
 
 Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
-We have 180 records and 563 variables. 
+We have 180 records and 563 variables in the tidy dataset. 
 
 The first variables indentify the subject who carried out the experiment and the second variable indicates the activity the subject is undertaking. 
 
 The remaining 561 columns are the average values of the 561 variables captured by the phone with time and frequency domains
+
+The run_analysis.R file contains the follwing variables:
+
+1. test(or train)_sub- The vector containg the identifier of the subject
+2. test(or train)_y- The The vector containg the activity the subject was undertaking
+3. test(or train)_x - The vector containg the 561 observations
+4. Train- The dataframe formed by combining the three above corresponding train vectors
+5. Test- The dataframe formed by combining the three above corresponding test vectors
+6. TTdf- the dataframe obtained by row binding the test and train dataframes 
+7. MeanStd- The vector which contains only the mean() or std() variables
+8. TTdf_MeanStd-The datframe obtained by subsetting TTdf for mean or std values
+9. act- The second column of the activity which contains the names of the activities
+10. fea- The feature vector without "-" or "," in the values
+11. fea1- The feature vector without "()" in the values
+12. Tidy_TTdf - The tidy dataset which contains the average values of the 561 variables
